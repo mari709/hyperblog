@@ -8,17 +8,37 @@ body
 	padding: 0;
 }
 
+#cabecera
+{
+	background: #93c23c;
+	color: white;
+	font-weight: bold;
+	margin: 0;
+	padding: 0.5em;
+}
+
 #container
 {
-
 	width: 70%;
-	padding: 1em;
+	padding: 0;
 	text-align: left;
 	border: 1px solid #ccc;
 	margin: 0 auto;
+}
+#cabecera #tagline
+{
+	padding:  0 0 0 1em;
+	font-weight: normal;
+	font-size: 0.8em;
 }
 
 #container h1
 {
 	font-size: 20px;
+}
+
+
+#post
+{
+	padding: 1em;
 }
